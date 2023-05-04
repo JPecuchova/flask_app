@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect
 from flask_pymongo import pymongo
 
-CONNECTION_STRING= 'mongodb+srv://User:123@cluster0.t2fkn.mongodb.net/?retryWrites=true&w=majority'
+CONNECTION_STRING= 'mongodb+srv://<Username>:<Password>@cluster0.t2fkn.mongodb.net/?retryWrites=true&w=majority'
 
 client = pymongo.MongoClient(CONNECTION_STRING)
 
